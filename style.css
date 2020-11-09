@@ -1,19 +1,35 @@
-.header-container {
-  width: 100%;
-  height: 200px;
-  background-color: purple;
+.header-container{
+    width: 100%;
+    height: 400px;
+    background-color: aqua;
 }
 
-.container-section-promo {
-  display: flex;
-  width: 70%;
-  margin: 100px auto;
-  align-items: center;
-  /* justify-content: center; */
-}
+  .publicidad h3 {
+    font-family: "Monserrat", serif;
+    color: #025157;
+    font-size: 35px;
+  }
+  
+  .publicidad > p {
+    font-size: 16px;
+    color: #343434;
+  }
+  
+  .publicidad > form {
+    display: flex;
+  }
+  
+  .publicidad > form p {
+    color: #025157;
+    margin-right: 18px;
+  }
 
-.item-article {
-  width: 30%;
-  height: 100px;
-  background-color: aqua;
-}
+  button{
+    height: 40px;
+    border-radius: 5px;
+    background-color: #025157;
+    color:white;
+    box-shadow: white;
+
+  }
+
